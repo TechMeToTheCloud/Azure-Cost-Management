@@ -1,5 +1,6 @@
 # Azure-Cost-Management with Powershell
-A cool way to save costs on Azure (convience for a sandbox) before the big sentence aka **DELETING** 😱 resource(s). 
+A cool way to save costs on Azure (convience for a sandbox) before the big sentence aka **DELETING** 😱 resource(s).
+<br><br>The example will focus on Synapse Pool and Stream analytics job. However the script could be used as a template and be leveraged to suit different use cases.
 
 # Step 1 Identify what resources cost the most in my subscription
 
@@ -11,7 +12,7 @@ In the case above, Synapse pools are the resources costing the most in the subsc
 
 * Have a look at the Azure Price Calculator
   * https://azure.microsoft.com/en-us/pricing/calculator/
-* Have a look at the Azure Powershell documentation. Look at the Reference part especially.
+* Have a look at the Azure Powershell documentation. Look at the Reference part especially to list what options are available for your resources (Pause, Stop, Reduce the compute, etc)
   * https://docs.microsoft.com/en-us/powershell/azure/?view=azps-5.4.0
   
 # Step 3 Create a Powershell script that would "minimize" the costs based on the options identified in Step 2
@@ -38,7 +39,7 @@ The following link will guide you to create and schedule a runbook:
 https://docs.microsoft.com/en-us/azure/automation/learn/automation-tutorial-runbook-textual-powershell
 When creating the job, make sure you add any module required (*see the example provided*)
 
-For example, the script could run from Monday to Friday at 10 pm.
+For example, the script could run everyday at 10 pm.
 
 After running the script in a runbook, you can verify what has been modified:
 ![image](https://user-images.githubusercontent.com/49620357/106397892-b9240580-63dd-11eb-8a47-18dd5c30d74d.png)
