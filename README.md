@@ -1,22 +1,24 @@
 # Azure-Cost-Management with Powershell
 A cool way to save costs on Azure (convience for a sandbox)
 
-# Step 1 Identify what resources cost me the most in my subscription
+# Step 1 Identify what resources cost the most in my subscription
 
 ![image](https://user-images.githubusercontent.com/49620357/106396964-19647880-63d9-11eb-8794-b62e6be7eb9f.png)
 
-In the case above, Synapse pools are the resources costing the most in my subscription.
+In the case above, Synapse pools are the resources costing the most in the subscription.
 
-# Step 2 Understand how any resource(s) identified in step 1 is/are priced and how you could modify the resource to make the cost cheaper
+# Step 2 Understand how any resource(s) identified in step 1 is/are priced and how you could modify the resource(s) to make the cost cheaper
 
 * Have a look at the Azure Price Calculator
   * https://azure.microsoft.com/en-us/pricing/calculator/
-* Have a look at the Azure Powershell documentation. Look at the Reference part.
+* Have a look at the Azure Powershell documentation. Look at the Reference part especially.
   * https://docs.microsoft.com/en-us/powershell/azure/?view=azps-5.4.0
   
 # Step 3 Create a Powershell script that would "minimize" the costs based on the options identified in Step 2
 
-In this case, Synapse Pools are the main "problem". Let's minize the cost for those resources. The stream analytic job will be also modified.
+In this case, Synapse Pools are the main "problem". 
+<br><br>Let's minize the cost for those resources. 
+<br><br>The stream analytic job will be also modified.
 
 What we will be doing for:
 
