@@ -10,9 +10,9 @@ In the case above, Synapse pools are the resources costing the most in the subsc
 
 # Step 2 Understand how any resource(s) identified in step 1 is/are priced and how you could modify the resource(s) to make the cost cheaper
 
-* Have a look at the Azure Price Calculator
+* Have a look at the Azure Price Calculator 💰
   * https://azure.microsoft.com/en-us/pricing/calculator/
-* Have a look at the Azure Powershell documentation. Look at the Reference part especially to list what options are available for your resources (Pause, Stop, Reduce the compute, etc)
+* Have a look at the Azure Powershell documentation 📖. Look at the Reference part especially to list what options are available for your resources (Pause, Stop, Reduce the compute, etc)
   * https://docs.microsoft.com/en-us/powershell/azure/?view=azps-5.4.0
   
 # Step 3 Create a Powershell script that would "minimize" the costs based on the options identified in Step 2
