@@ -37,3 +37,6 @@ https://docs.microsoft.com/en-us/azure/automation/learn/automation-tutorial-runb
 When creating the job, make sure you add any module required (*see the example provided*)
 
 For example, the script could run from Monday to Friday at 10 pm.
+
+After running the script in a runbook, you can verify what has been modified:
+![image](https://user-images.githubusercontent.com/49620357/106397892-b9240580-63dd-11eb-8a47-18dd5c30d74d.png)
