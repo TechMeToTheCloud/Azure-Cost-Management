@@ -1,5 +1,5 @@
 # Azure-Cost-Management with Powershell
-A cool way to save costs on Azure (convience for a sandbox)
+A cool way to save costs on Azure (convience for a sandbox) before the big sentence aka **deleting** resource(s)
 
 # Step 1 Identify what resources cost the most in my subscription
 
