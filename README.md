@@ -31,7 +31,7 @@ What we will be doing for:
 
 The script will iterate through all the resources in the subscription. 
 <br><br>Each Synapse Pool running will be paused.
-<br><br>Each Analytic job running will be stopped.
+<br><br>Each Streamin Analytic job running will be stopped.
 
 # Step 4 Create a runbook and schedule it to run on a regular basis
 
