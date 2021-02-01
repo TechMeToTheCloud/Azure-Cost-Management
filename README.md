@@ -2,7 +2,7 @@
 A cool way to save costs on Azure (convience for a sandbox) before the big sentence aka **DELETING** 😱 resource(s).
 <br><br>The example will focus on Synapse Pool and Stream analytics job. However the script could be used as a template and be leveraged to suit different use cases.
 
-# Step 1 Identify what resources cost the most in my subscription
+# Step 1 Identify what resources cost the most in the subscription
 
 ![image](https://user-images.githubusercontent.com/49620357/106396964-19647880-63d9-11eb-8794-b62e6be7eb9f.png)
 
