@@ -6,7 +6,7 @@ A cool way to save costs on Azure (convience for a sandbox) before the big sente
 
 ![image](https://user-images.githubusercontent.com/49620357/106396964-19647880-63d9-11eb-8794-b62e6be7eb9f.png)
 
-In the case above, Synapse pools are the resources costing the most in the subscription.
+In the case above, Synapse pools are the resources costing the most in the subscription (https://azure.microsoft.com/en-us/services/cost-management/#overview)
 
 # Step 2 Understand how any resource(s) identified in step 1 is/are priced and how you could modify the resource(s) to make the cost cheaper
 
