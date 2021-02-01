@@ -15,7 +15,7 @@ In the case above, Synapse pools are the resources costing the most in the subsc
 * Have a look at the Azure Powershell documentation 📖. Look at the Reference part especially to list what options are available for your resources (Pause, Stop, Reduce the compute, etc)
   * https://docs.microsoft.com/en-us/powershell/azure/?view=azps-5.4.0
   
-# Step 3 Create a Powershell script that would "minimize" the costs based on the options identified in Step 2
+# Step 3 Create a Powershell script that "minimizes" the costs based on the options identified in Step 2
 
 In this case, Synapse Pools are the main "problem". 
 <br><br>Let's minimize the cost for those resources. 
