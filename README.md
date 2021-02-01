@@ -18,7 +18,7 @@ In the case above, Synapse pools are the resources costing the most in the subsc
 # Step 3 Create a Powershell script that would "minimize" the costs based on the options identified in Step 2
 
 In this case, Synapse Pools are the main "problem". 
-<br><br>Let's minize the cost for those resources. 
+<br><br>Let's minimize the cost for those resources. 
 <br><br>The stream analytic job will be also modified.
 
 What we will be doing for:
@@ -39,7 +39,7 @@ The following link will guide you to create and schedule a runbook:
 https://docs.microsoft.com/en-us/azure/automation/learn/automation-tutorial-runbook-textual-powershell
 When creating the job, make sure you add any module required (*see the example provided*)
 
-For example, the script could run everyday at 10 pm.
+The final step is to decide the frequency of the job. For example, run the runbook everyday at 10pm.
 
 After running the script in a runbook, you can verify what has been modified:
 ![image](https://user-images.githubusercontent.com/49620357/106397892-b9240580-63dd-11eb-8a47-18dd5c30d74d.png)
