@@ -1,5 +1,5 @@
 # Azure-Cost-Management with Powershell
-A cool way to save costs on Azure (convience for a sandbox) before the big sentence aka **DELETING** 😱 resource(s).
+A cool way to save costs on Azure (convenience for a sandbox) before the big sentence aka **DELETING** 😱 resource(s).
 <br><br>The example will focus on Synapse Pool and Stream analytics job. However the script could be used as a template and be leveraged to suit different use cases.
 
 # Step 1 Identify what resources cost the most in the subscription
